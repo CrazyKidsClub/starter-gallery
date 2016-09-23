@@ -8,3 +8,4 @@
 /nbproject/
 /public/nbproject/private/
 /public/nbproject
+application/config/database.php
