@@ -10,7 +10,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class About extends application {
 	public function index()
 	{
-		$this->load->view('About');   
+            $this->data['pagebody'] = 'about';
+            $this->render();
 	}
        
 }
